@@ -1,4 +1,4 @@
-# OpenGL ES 3.0
+## OpenGL ES 3.0
 
 * Texturing
   * linear space workflow
