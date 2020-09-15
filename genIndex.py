@@ -26,13 +26,14 @@ class DirectionTree:
 		
         for validPath in self.owner.iterdir():
             if validPath.is_dir() and not(re.match("^\.", validPath.name)):
-                self.tree += self.startDirSign + '  ' + validPath.name + "\n"
+                self.tree += self.startDirSign + '  ' + validPath.name.title() + "\n"
                 self.direction_ergodic(path_object=validPath, parentDir=validPath.name + '/', n=1)
 
     def tree_add(self, path_object: WindowsPath, parentDir, n=0):
         line = self.indentSpace * n
         fixedName = path_object.name.replace("_", " ")
         fixedName = re.sub(r'.md$', '', fixedName)
+        fixedName = fixedName.title()
         if path_object.is_file():
             fileContent = self.fileSign.replace("%s", fixedName) + '\n'
             fileContent = fileContent.replace('%path', parentDir + fixedName)
