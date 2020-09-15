@@ -38,7 +38,7 @@ class DirectionTree:
         fixedName = fixedName.title()
         if path_object.is_file():
             fileContent = self.fileSign.replace("%s", fixedName) + '\n'
-            fileContent = fileContent.replace('%path', parentDir + fixedName)
+            fileContent = fileContent.replace('%path', parentDir + path_object.name)
             self.tree += line + fileContent + '\n'
             return False
         elif path_object.is_dir():
