@@ -17,7 +17,9 @@ class DirectionTree:
                  ignore_list: Optional[List[str]] = None):
         self.owner: WindowsPath = Path(direction_path)
         self.tree: str = '## Welcome to TA Group Pages\n\n###  Contents\n'
-        self.fileSign: str = '- [%s](https://hehanxin.github.io/TA/%path)'        self.dirSign: str = '- %s'        self.startDirSign: str = '- ##'
+        self.fileSign: str = '- [%s](https://hehanxin.github.io/TA/%path)'
+        self.dirSign: str = '- %s'
+        self.startDirSign: str = '- ####'
         self.indentSpace: str = '  '
         self.ignore_list = ignore_list
 
