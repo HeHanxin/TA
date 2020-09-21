@@ -47,6 +47,8 @@
   - [Render Pipeline](https://hehanxin.github.io/TA/render/render_pipeline)
 
   - Shader
+    - [Procedural Skybox](https://hehanxin.github.io/TA/render/shader/procedural_skybox)
+
   - Shadow
   - Solution
   - [Unity Shader](https://hehanxin.github.io/TA/render/unity_shader)
