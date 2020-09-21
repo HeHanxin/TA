@@ -50,8 +50,18 @@
     - [Procedural Skybox](https://hehanxin.github.io/TA/render/shader/procedural_skybox)
 
   - Shadow
+    - [Capsule Shadow](https://hehanxin.github.io/TA/render/shadow/capsule_shadow)
+
+    - [Csm](https://hehanxin.github.io/TA/render/shadow/csm)
+
+    - [Vsm](https://hehanxin.github.io/TA/render/shadow/vsm)
+
   - Solution
     - [Imposter](https://hehanxin.github.io/TA/render/solution/imposter)
+
+    - [Translucency Sort](https://hehanxin.github.io/TA/render/solution/translucency_sort)
+
+    - [Unity Lightprobes](https://hehanxin.github.io/TA/render/solution/unity_lightprobes)
 
   - [Unity Shader](https://hehanxin.github.io/TA/render/unity_shader)
 
