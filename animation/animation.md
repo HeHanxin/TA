@@ -1,5 +1,7 @@
 ## Animation
 
+#### 骨骼动画
+
 ##### 骨骼
 
 * 互相连接的骨骼组成骨架结构，通过改变骨骼的朝向和位置来生成动画
@@ -35,3 +37,8 @@ blendMatrix += a_boneWeight.w * u_matPalette[int(a_boneIndex.w)];
 
 * GPU Skin
   * 把每个顶点每一帧的位置输出到贴图上
+
+#### 顶点动画
+
+* Vertex Shader中程序化顶点动画
+* 基于Vertex采样贴图的顶点动画
