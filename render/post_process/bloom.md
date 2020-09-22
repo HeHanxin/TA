@@ -51,49 +51,4 @@ void render()
 }
 ```
 
-##### Color Grading
-
-* White Balance
-  * Temperature
-* Tone
-  * Exposure
-  * Color Filter
-  * Hue Shift
-  * Saturation
-  * Brightness
-  * Contrast
-* Channel Mixer
-  * R/G/B Channel Tint
-
-##### Depth Of Field
-
-* 相机中光圈与景深的关系
-
-  <img src="https://pic1.zhimg.com/80/v2-c70f73d67a323a87c0e0921757f3679c_720w.jpg?source=1940ef5c" alt="img" style="zoom: 67%;" />
-
-* 后处理中的景深
-
-  * near
-  * far
-  * near < focus < far
-
-##### God Ray
-
-* Raidal Blur Postprocessing
-  * 提取高光->径向模糊->增大模糊半径再次镜像模糊->与原图叠加
-
-##### Lens Flare
-
-
-
-##### Screen Space Reflection
-
-* 在Screen Space上根据Gbuffer normal获得反射方向做depth ray march，得到Hit坐标点的color
-
-* 生成blur过的mipmap，根据roughness选择mipmap
-
-* 仅在延迟渲染中使用，依赖Gbuffer中的法线
-
-  
-
 [返回目录](https://hehanxin.github.io/TA/index)

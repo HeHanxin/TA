@@ -2,7 +2,9 @@
 
 ###  Contents
 - ####  Animation
-  - [Animation](https://hehanxin.github.io/TA/animation/animation)
+  - [Bone Animation](https://hehanxin.github.io/TA/animation/bone_animation)
+
+  - [Vertex Animation](https://hehanxin.github.io/TA/animation/vertex_animation)
 
 - ####  Basics
   - Computer Graphics
@@ -36,11 +38,29 @@
   - Graphic Api
     - [Opengl Es](https://hehanxin.github.io/TA/render/graphic_api/opengl_es)
 
-  - [Lighting Model](https://hehanxin.github.io/TA/render/lighting_model)
+  - Lighting Model
+    - [Blinn Phong](https://hehanxin.github.io/TA/render/lighting_model/blinn_phong)
+
+    - [Lambert](https://hehanxin.github.io/TA/render/lighting_model/lambert)
+
+    - [Lighting Model](https://hehanxin.github.io/TA/render/lighting_model/lighting_model)
+
+    - [Phong](https://hehanxin.github.io/TA/render/lighting_model/phong)
 
   - [Particle](https://hehanxin.github.io/TA/render/particle)
 
-  - [Postprocess](https://hehanxin.github.io/TA/render/postprocess)
+  - Post Process
+    - [Bloom](https://hehanxin.github.io/TA/render/post_process/bloom)
+
+    - [Color Grading](https://hehanxin.github.io/TA/render/post_process/color_grading)
+
+    - [Depth Of Field](https://hehanxin.github.io/TA/render/post_process/depth_of_field)
+
+    - [God Ray](https://hehanxin.github.io/TA/render/post_process/god_ray)
+
+    - [Lens Flare](https://hehanxin.github.io/TA/render/post_process/lens_flare)
+
+    - [Screen Space Reflection](https://hehanxin.github.io/TA/render/post_process/screen_space_reflection)
 
   - [Render Path](https://hehanxin.github.io/TA/render/render_path)
 
@@ -52,9 +72,9 @@
   - Shadow
     - [Capsule Shadow](https://hehanxin.github.io/TA/render/shadow/capsule_shadow)
 
-    - [Csm](https://hehanxin.github.io/TA/render/shadow/csm)
+    - [Cascaded Shadow Map](https://hehanxin.github.io/TA/render/shadow/cascaded_shadow_map)
 
-    - [Vsm](https://hehanxin.github.io/TA/render/shadow/vsm)
+    - [Variance Shadow Map](https://hehanxin.github.io/TA/render/shadow/variance_shadow_map)
 
   - Solution
     - [Imposter](https://hehanxin.github.io/TA/render/solution/imposter)

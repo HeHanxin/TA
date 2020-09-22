@@ -1,6 +1,4 @@
-## Animation
-
-#### 骨骼动画
+## 骨骼动画
 
 ##### 骨骼
 
@@ -35,10 +33,3 @@ blendMatrix += a_boneWeight.w * u_matPalette[int(a_boneIndex.w)];
   * vertex buffer中包含了影响当前顶点的骨骼id，以及各骨骼id对当前顶点影响的权重值
   * 在vertex shader中，通过加权平均来计算动画的融合矩阵
 
-* GPU Skin
-  * 把每个顶点每一帧的位置输出到贴图上
-
-#### 顶点动画
-
-* Vertex Shader中程序化顶点动画
-* 基于Vertex采样贴图的顶点动画
